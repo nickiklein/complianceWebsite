@@ -1,0 +1,100 @@
+body {
+    font-family: Avenir, sans-serif;
+    background-color: #FCEEE3;
+}
+
+/*TitleLine*/
+
+.titleLine {
+    text-align: center;
+    font-size: larger;
+}
+
+/*Navigation Bar*/
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBar > div {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding: 15px;
+}
+.navBarLinks a {
+    color: #8a8a8a;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: color 0.5s, border-bottom 0.5s;
+}
+.navBarLinks a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/*BeratungsLeistung*/
+
+.beratungsLeistung {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+/*Image*/
+
+.image {
+    display: flex;
+    /*width: 50%;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: auto;*/
+}
+
+.image img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 50px;
+
+    border: 1px solid black;
+}
+
+/*KontaktBlock*/
+
+.kontaktBlock {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    height: 300px;
+    width: 75%;
+    background-color: darkblue;
+    border: solid 3px white;
+}
+.kontaktText {
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    font-size: larger;
+}
+
+/*Socials*/
+
+.social {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*Impressum*/
+
+.impressum {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    font-size: larger;
+}
